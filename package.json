@@ -1,13 +1,14 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "saadpasta.github.io",
+  "homepage": "https://vishal2develop.github.io",
+  "name": "vishal2develop.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@apollo/react-hooks": "^3.1.4",
     "apollo-boost": "^0.4.4",
     "colorthief": "^2.3.0",
-    "gh-pages": "^2.1.1",
+    "dotenv": "^8.2.0",
+    "gh-pages": "^2.2.0",
     "graphql": "^14.5.8",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -44,5 +45,16 @@
   },
   "devDependencies": {
     "prettier": "^2.2.1"
+  },
+  "description": "![ReactJS Resume Website Template](portfolio.png?raw=true \"ReactJS Resume Website Template\")",
+  "main": "App.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CleverProgrammers/portfolio-react-cp.git"
+  },
+  "author": "Vishal Borana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CleverProgrammers/portfolio-react-cp/issues"
   }
 }

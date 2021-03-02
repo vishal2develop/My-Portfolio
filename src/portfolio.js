@@ -5,48 +5,47 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: true, // set to false to use static SVG
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Vishal Borana",
+  title: "Hi all, I'm Vishal",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1uv4ZQQr0U5zjyDJEgL0sA5HHWmIZKlil/view?usp=sharing",
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  github: "https://github.com/vishal2develop",
+  linkedin: "https://www.linkedin.com/in/vishal-borana/",
+  gmail: "vish98950@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
-  display: true // Set true to display this section, defaults to false
+  medium: "https://medium.com/@vish98950",
+  //stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
+  //instagram: 'https://www.instagram.com/davidrakosi/',
+  //twitter: 'https://twitter.com/davidrakosi_',
+  display: true, // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "Passionate FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Scalable Backend development and RESTful API Development."),
+    emoji("⚡ Integration of third party services such as Firebase/ OAuth"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -55,46 +54,63 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fab fa-html5",
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fab fa-css3-alt",
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
     },
     {
       skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fab fa-react",
     },
     {
       skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "fab fa-node",
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "expressjs",
+      fontAwesomeClassname: "fas fa-rocket",
+    },
+    {
+      skillName: "REST API",
+      fontAwesomeClassname: "fa fa-bolt",
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-database",
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python",
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java",
     },
     {
       skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fab fa-npm",
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-square",
     },
     {
       skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fas fa-database",
     },
     {
       skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    }
+      fontAwesomeClassname: "fas fa-fire",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -108,9 +124,7 @@ const educationInfo = {
       subHeader: "Master of Science in Computer Science",
       duration: "September 2017 - April 2019",
       desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
     },
     {
       schoolName: "Stanford University",
@@ -119,9 +133,9 @@ const educationInfo = {
       duration: "September 2013 - April 2017",
       desc:
         "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -130,19 +144,35 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "MERN", //Insert stack or technology you have experience in
+      progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "MySQL", //Insert stack or technology you have experience in
+      progressPercentage: "80%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Programming",
-      progressPercentage: "90%"
-    }
+      Stack: "REST API", //Insert stack or technology you have experience in
+      progressPercentage: "70%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Material UI", //Insert stack or technology you have experience in
+      progressPercentage: "70%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Python", //Insert stack or technology you have experience in
+      progressPercentage: "80%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Java", //Insert stack or technology you have experience in
+      progressPercentage: "70%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Cloud Functions", //Insert stack or technology you have experience in
+      progressPercentage: "70%", //Insert relative proficiency in percentage
+    },
   ],
-  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -151,79 +181,108 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
-      desc:
-        "Changing lives of developers one line of code at a time.",
+      role: "System Engineer",
+      company: "Infosys Ltd.",
+      companylogo: require("./assets/images/infy-crop.png"),
+      date: "January 2019 – Present",
+      desc: "Building scalable and design efficient Web applications.",
       descBullets: [
         "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
-      ]
+        "Full Stack Development",
+        "E-Banking",
+        "Banking Applications",
+      ],
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
+      role: "Intern (Data Science)",
+      company: "Nuclei Technologies",
+      companylogo: require("./assets/images/nuclei-crop.png"),
       date: "July 2019 – September 2020",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+        "I build accurate models that translate data points into business insights.",
+      descBullets: [
+        "Created and deployed models in R and Python.",
+        "Performed Data Analysis using standard statistical methods",
+        "Created Meaningful visualizations using tableau",
+      ],
     },
-    {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
-    }
-  ]
+    // {
+    //   role: "Intern",
+    //   company: "HP",
+    //   companylogo: require("./assets/images/vodafoneLogo.png"),
+    //   date: "November 2018 – July 2019",
+    //   desc:
+    //     "I've conducted internal audit making sure the organization is compliant with the GDPR.",
+    // },
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
-
+console.log("key: ", process.env.REACT_APP_GITHUB_TOKEN);
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  githubUserName: "vishal2develop", // Change to your github username to view your profile in Contact Section.
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
+
+console.log({ openSource });
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Amazon Clone",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/amazon-crop.png"),
+      projectName: "Amazon Clone",
+      projectDesc:
+        "An amazon clone built with love using ReactJs,NodeJs and Firebase integrated with payment functionality",
       footerLink: [
         {
+          name: "View Repo",
+          url: "https://github.com/vishal2develop/React-Amazon-Clone",
+        },
+        {
           name: "Visit Website",
-          url: "fa"
-        }
+          url: "https://clone-cb68e.web.app/",
+        },
         //  you can add extra buttons here.
-      ]
+      ],
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/secret-crop.png"),
+      projectName: "Secrets",
+      projectDesc:
+        "A Secret Keeper App built with love using Node and Mongo with OAuth integration",
       footerLink: [
         {
+          name: "View Repo",
+          url: "https://github.com/vishal2develop/Secrets",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: require("./assets/images/crypto-crop.png"),
+      projectName: "Crypto Tracker",
+      projectDesc:
+        "A Crypto Currency Tracker built using Node,Express,ReactJs and coingecko api.",
+      footerLink: [
+        {
+          name: "View Repo",
+          url: "https://github.com/vishal2develop/react-crypto-tracker",
+        },
+        {
           name: "Visit Website",
-          url: ""
-        }
-      ]
-    }
+          url: "https://crypto-tracko.netlify.app/",
+        },
+      ],
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -243,20 +302,17 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url:
-            ""
+          url: "",
         },
         {
           name: "Award Letter",
-          url:
-            ""
+          url: "",
         },
         {
           name: "Google Code-in Blog",
-          url:
-            ""
-        }
-      ]
+          url: "",
+        },
+      ],
     },
     {
       title: "Google Assistant Action",
@@ -266,10 +322,9 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Google Assistant Action",
-          url:
-            ""
-        }
-      ]
+          url: "",
+        },
+      ],
     },
 
     {
@@ -277,15 +332,15 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+      ],
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -298,38 +353,30 @@ const blogSection = {
   blogs: [
     {
       url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+        "https://medium.com/analytics-vidhya/bigmart-dataset-sales-prediction-c1f1cdca9af1",
+      title: "Build a sales predictions model from scratch.",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "My approach on Analytics Vidhya’s Bigmart Sales Prediction problem using Python.",
     },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    ""
-  ),
+  subtitle: emoji(""),
 
   talks: [
     {
       title: "",
       subtitle: "",
       slides_url: "",
-      event_url: ""
-    }
+      event_url: "",
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -339,25 +386,23 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
-  display: false // Set false to hide this section, defaults to true
+  podcast: [""],
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  //number: "(91) 768 0674",
+  email_address: "vish98950@gmail.com",
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 export {
@@ -375,5 +420,5 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
 };
