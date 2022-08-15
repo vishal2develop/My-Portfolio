@@ -12,10 +12,10 @@ const greeting = {
   username: "Vishal Borana",
   title: "Hi all, I'm Vishal",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Full Stack Developer 🚀 experienced in designing and building products that scale. I enjoy discussing ideas and helping out others with my knowledge"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1uv4ZQQr0U5zjyDJEgL0sA5HHWmIZKlil/view?usp=sharing",
+    "https://drive.google.com/file/d/1cdb2wozNMYLCoa3R1Lbg1EhkKDV754S-/view?usp=sharing",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -39,13 +39,14 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Passionate FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+    "Passionate Full Stack Developer who enjoys problem solving and brainstorming",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+      "⚡ Develop highly interactive Frontend / User Interfaces for your web applications"
     ),
     emoji("⚡ Scalable Backend development and RESTful API Development."),
     emoji("⚡ Integration of third party services such as Firebase/ OAuth"),
+    emoji("⚡ Cloud Driven Applications"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -66,15 +67,23 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js",
     },
     {
-      skillName: "reactjs",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react",
     },
     {
-      skillName: "nodejs",
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular",
+    },
+    {
+      skillName: "Flutter",
+      fontAwesomeClassname: "fa fa-mobile",
+    },
+    {
+      skillName: "Nodejs",
       fontAwesomeClassname: "fab fa-node",
     },
     {
-      skillName: "expressjs",
+      skillName: "Expressjs",
       fontAwesomeClassname: "fas fa-rocket",
     },
     {
@@ -82,16 +91,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fa fa-bolt",
     },
     {
-      skillName: "MongoDB",
-      fontAwesomeClassname: "fas fa-database",
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python",
     },
     {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java",
+      skillName: "Djnago",
+      fontAwesomeClassname: "fab fa-python",
+    },
+    {
+      skillName: "FastAPI",
+      fontAwesomeClassname: "fab fa-python",
     },
     {
       skillName: "npm",
@@ -106,8 +115,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database",
     },
     {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-database",
+    },
+    {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire",
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker",
+    },
+    {
+      skillName: "GCP",
+      fontAwesomeClassname: "fab fa-google",
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws",
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -144,31 +169,64 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "MERN", //Insert stack or technology you have experience in
+      Stack: "React", //Insert stack or technology you have experience in
       progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "MySQL", //Insert stack or technology you have experience in
+      Stack: "Angular", //Insert stack or technology you have experience in
       progressPercentage: "80%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "REST API", //Insert stack or technology you have experience in
-      progressPercentage: "70%", //Insert relative proficiency in percentage
+      Stack: "NodeJs", //Insert stack or technology you have experience in
+      progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Material UI", //Insert stack or technology you have experience in
-      progressPercentage: "70%", //Insert relative proficiency in percentage
+      Stack: "ExpressJs", //Insert stack or technology you have experience in
+      progressPercentage: "90%", //Insert relative proficiency in percentage
+    },
+
+    {
+      Stack: "Flutter", //Insert stack or technology you have experience in
+      progressPercentage: "65%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "REST API", //Insert stack or technology you have experience in
+      progressPercentage: "80%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Python", //Insert stack or technology you have experience in
       progressPercentage: "80%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Java", //Insert stack or technology you have experience in
+      Stack: "Django", //Insert stack or technology you have experience in
+      progressPercentage: "75%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "FastAPI", //Insert stack or technology you have experience in
+      progressPercentage: "85%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Docker", //Insert stack or technology you have experience in
       progressPercentage: "70%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Cloud Functions", //Insert stack or technology you have experience in
+      Stack: "Firebase", //Insert stack or technology you have experience in
+      progressPercentage: "70%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "MySQL", //Insert stack or technology you have experience in
+      progressPercentage: "80%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "MongoDb", //Insert stack or technology you have experience in
+      progressPercentage: "90%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "GCP", //Insert stack or technology you have experience in
+      progressPercentage: "70%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "AWS", //Insert stack or technology you have experience in
       progressPercentage: "70%", //Insert relative proficiency in percentage
     },
   ],
@@ -181,10 +239,23 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Full Stack Developer",
+      company: "Quantiphi Analytics",
+      companylogo: require("./assets/images/quantiphi_logo.png"),
+      date: "June 2021 – Present",
+      desc: "Building distributed AI Driven products at scale.",
+      descBullets: [
+        "Full Stack Development",
+        "Scalable applications",
+        "Cloud Driven",
+        "Research adnd Development",
+      ],
+    },
+    {
       role: "System Engineer",
       company: "Infosys Ltd.",
       companylogo: require("./assets/images/infy-crop.png"),
-      date: "January 2019 – Present",
+      date: "January 2019 – June 2021",
       desc: "Building scalable and design efficient Web applications.",
       descBullets: [
         "Custom building applications",
@@ -206,6 +277,7 @@ const workExperiences = {
         "Created Meaningful visualizations using tableau",
       ],
     },
+
     // {
     //   role: "Intern",
     //   company: "HP",
@@ -219,7 +291,7 @@ const workExperiences = {
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
-console.log("key: ", process.env.REACT_APP_GITHUB_TOKEN);
+// console.log("key: ", process.env.REACT_APP_GITHUB_TOKEN);
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "vishal2develop", // Change to your github username to view your profile in Contact Section.
@@ -227,40 +299,99 @@ const openSource = {
   display: true, // Set false to hide this section, defaults to true
 };
 
-console.log({ openSource });
+// console.log({ openSource });
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "Amazon Clone",
+  subtitle: "Work & Personal",
   projects: [
     {
-      image: require("./assets/images/amazon-crop.png"),
-      projectName: "Amazon Clone",
+      image: require("./assets/images/dociphi.png"),
+      projectName: "Document Classification App",
       projectDesc:
-        "An amazon clone built with love using ReactJs,NodeJs and Firebase integrated with payment functionality",
+        "An ML driven product developed to classify and perform entity extraction on documents for the mortgage and insurance industry, to minimize manual work and human errors that occurs in processing physical forms.",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "https://clone-cb68e.web.app/",
+        // },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: require("./assets/images/eazyQ.png"),
+      projectName: "Cloud Access Portal",
+      projectDesc:
+        "A webapp where one could create cloud projects, enable APIs, get access to cloud resources and a lot, on any of the three major cloud platforms - GCP, AWS,Azure.",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "",
+        // },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: require("./assets/images/qassure_logo.png"),
+      projectName: "Project Management Portal ",
+      projectDesc:
+        "A project management tool where all the client project details are captured and onboarding of client is done.",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "",
+        // },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: require("./assets/images/crwn.png"),
+      projectName: "Ecommerce Marketplace",
+      projectDesc:
+        "An Ecommerce Marketplace built with love using ReactJs, Redux, Redux thunk and Firebase.Upcoming - Payment Functionality",
       footerLink: [
         {
           name: "View Repo",
-          url: "https://github.com/vishal2develop/React-Amazon-Clone",
+          url: "https://github.com/vishal2develop/CRWN",
         },
         {
           name: "Visit Website",
-          url: "https://clone-cb68e.web.app/",
+          url: "https://crwn-clothy.netlify.app/",
         },
         //  you can add extra buttons here.
       ],
     },
     {
-      image: require("./assets/images/secret-crop.png"),
-      projectName: "Secrets",
+      image: require("./assets/images/bootcamp_yoga.png"),
+      projectName: "Bootcamp Yoga",
       projectDesc:
-        "A Secret Keeper App built with love using Node and Mongo with OAuth integration",
+        "A complete backend for serving bootcamp details powered by MERN Stack with API Rate Limiting and Pagination implemented.",
+      footerLink: [
+        {
+          name: "View Repo",
+          url: "https://github.com/vishal2develop/BootcampYoga-API",
+        },
+        {
+          name: "Visit Website",
+          url: "https://fierce-ocean-02840.herokuapp.com/",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: require("./assets/images/memkoz.png"),
+      projectName: "Memkoz",
+      projectDesc: "A Memory sharing social media web app",
       footerLink: [
         {
           name: "View Repo",
           url: "https://github.com/vishal2develop/Secrets",
+        },
+        {
+          name: "View Website",
+          url: "https://memkoz.netlify.app/",
         },
         //  you can add extra buttons here.
       ],
@@ -278,6 +409,38 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://crypto-tracko.netlify.app/",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/dev_talk.png"),
+      projectName: "Dev Talk",
+      projectDesc:
+        "A platform where you can connect with your peers or other developers via Videocall",
+      footerLink: [
+        // {
+        //   name: "View Repo",
+        //   url: "https://github.com/vishal2develop/react-crypto-tracker",
+        // },
+        {
+          name: "Visit Website",
+          url: "https://dev-dev-tok.netlify.app/",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/breaking_bad.png"),
+      projectName: "Breaking Bad Castings",
+      projectDesc:
+        "A fun app to list all the characters of my favorite show Breaking Bad",
+      footerLink: [
+        {
+          name: "View Repo",
+          url: "https://github.com/vishal2develop/react-breaking-bad",
+        },
+        {
+          name: "Visit Website",
+          url: "https://breaking-bad-castings.netlify.app/",
         },
       ],
     },
