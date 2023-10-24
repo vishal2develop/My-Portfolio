@@ -71,12 +71,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react",
     },
     {
-      skillName: "Angular",
-      fontAwesomeClassname: "fab fa-angular",
+      skillName: "React Native",
+      fontAwesomeClassname: "fab fa-react",
     },
     {
-      skillName: "Flutter",
-      fontAwesomeClassname: "fa fa-mobile",
+      skillName: "NextJs",
+      fontAwesomeClassname: "fab fa-react",
     },
     {
       skillName: "Nodejs",
@@ -87,19 +87,15 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-rocket",
     },
     {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws",
+    },
+    {
       skillName: "REST API",
       fontAwesomeClassname: "fa fa-bolt",
     },
     {
       skillName: "Python",
-      fontAwesomeClassname: "fab fa-python",
-    },
-    {
-      skillName: "Djnago",
-      fontAwesomeClassname: "fab fa-python",
-    },
-    {
-      skillName: "FastAPI",
       fontAwesomeClassname: "fab fa-python",
     },
     {
@@ -125,14 +121,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker",
-    },
-    {
-      skillName: "GCP",
-      fontAwesomeClassname: "fab fa-google",
-    },
-    {
-      skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws",
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -173,8 +161,12 @@ const techStack = {
       progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Angular", //Insert stack or technology you have experience in
-      progressPercentage: "80%", //Insert relative proficiency in percentage
+      Stack: "NextJs", //Insert stack or technology you have experience in
+      progressPercentage: "70%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "React Native", //Insert stack or technology you have experience in
+      progressPercentage: "60%", //Insert relative proficiency in percentage
     },
     {
       Stack: "NodeJs", //Insert stack or technology you have experience in
@@ -184,10 +176,9 @@ const techStack = {
       Stack: "ExpressJs", //Insert stack or technology you have experience in
       progressPercentage: "90%", //Insert relative proficiency in percentage
     },
-
     {
-      Stack: "Flutter", //Insert stack or technology you have experience in
-      progressPercentage: "65%", //Insert relative proficiency in percentage
+      Stack: "AWS Serverless", //Insert stack or technology you have experience in
+      progressPercentage: "70%", //Insert relative proficiency in percentage
     },
     {
       Stack: "REST API", //Insert stack or technology you have experience in
@@ -196,14 +187,6 @@ const techStack = {
     {
       Stack: "Python", //Insert stack or technology you have experience in
       progressPercentage: "80%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Django", //Insert stack or technology you have experience in
-      progressPercentage: "75%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "FastAPI", //Insert stack or technology you have experience in
-      progressPercentage: "85%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Docker", //Insert stack or technology you have experience in
@@ -221,14 +204,6 @@ const techStack = {
       Stack: "MongoDb", //Insert stack or technology you have experience in
       progressPercentage: "90%", //Insert relative proficiency in percentage
     },
-    {
-      Stack: "GCP", //Insert stack or technology you have experience in
-      progressPercentage: "70%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "AWS", //Insert stack or technology you have experience in
-      progressPercentage: "70%", //Insert relative proficiency in percentage
-    },
   ],
   displayCodersrank: true, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -238,6 +213,19 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Full Stack Engineer 2",
+      company: "Neiman Marcus Group",
+      companylogo: require("./assets/images/Neiman_Marcus-Logo.png"),
+      date: "Aug 2022 – Present",
+      desc: "Building the digital communication hub for luxury retail.",
+      descBullets: [
+        "Full Stack Development",
+        "Architecting and developing scalable & fault tolerant serverless applications on AWS and Twilio.",
+        "Cloud Driven",
+        "Research adnd Development",
+      ],
+    },
     {
       role: "Full Stack Developer",
       company: "Quantiphi Analytics",
@@ -308,6 +296,45 @@ const bigProjects = {
   subtitle: "Work & Personal",
   projects: [
     {
+      image: require("./assets/images/Neiman_Marcus-Logo.png"),
+      projectName: "NMO Webchat Widget",
+      projectDesc:
+        "Designed and developed a versatile webchat widget with three distinct interaction flows: Style Advisor, Beauty Advisor, and Customer Service, enhancing customer engagement on the NMO website.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.neimanmarcus.com",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: require("./assets/images/Neiman_Marcus-Logo.png"),
+      projectName: "Chub-Cart-Receipt",
+      projectDesc:
+        "Architected and implemented a serverless backend service designed to manage cart sharing, e-receipts, and saving items for later, effectively streamlining email communications.",
+      footerLink: [
+        {
+          name: "View Serverless Architecture",
+          url: "https://www.neimanmarcus.com",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: require("./assets/images/Neiman_Marcus-Logo.png"),
+      projectName: "Chub-Transactional-MAO",
+      projectDesc:
+        "Architected and implemented a serverless backend service designed to manage transactional emails, effectively streamlining email communications.",
+      footerLink: [
+        {
+          name: "View Serverless Architecture",
+          url: "https://www.neimanmarcus.com",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
       image: require("./assets/images/dociphi.png"),
       projectName: "Document Classification App",
       projectDesc:
@@ -359,6 +386,32 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://crwn-clothy.netlify.app/",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: require("./assets/images/logo.svg"),
+      projectName: "SumZ - Article Summarization with OpenAI GPT-4",
+      projectDesc:
+        "Created an article summarization tool utilizing OpenAI GPT-4 to efficiently condense lengthy articles into concise, coherent summaries.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://sumzz.netlify.app/",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: require("./assets/images/QuickJobs.png"),
+      projectName: "QuickJobs",
+      projectDesc:
+        "Developed a mobile job search application using React Native, allowing users to search for job listings, save favorites, and apply directly through the app.",
+      footerLink: [
+        {
+          name: "View Repo",
+          url: "https://github.com/vishal2develop/QuickJobs",
         },
         //  you can add extra buttons here.
       ],
@@ -458,52 +511,12 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "",
-        },
-        {
-          name: "Award Letter",
-          url: "",
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "",
-        },
-      ],
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "",
-        },
-      ],
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        {
-          name: "Final Project",
-          url: "",
-        },
-      ],
+      title: "NMG Best Employee of the Year - 2023",
+      subtitle: "Nominated for NMG Best Employee of the Year - 2023",
+      image: require("./assets/images/Neiman_Marcus-Logo.png"),
     },
   ],
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
